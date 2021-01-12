@@ -44,3 +44,11 @@
 .boxA {
     background: #16a085;
 }
+
+.container {
+    display: flex;
+}
+
+.box {
+    flex: 1;
+}
