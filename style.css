@@ -10,7 +10,7 @@
     font-size: 40px;
     text-align: center;
     text-shadow: 4px 4px 0 rgba(0, 0, 0, 0.1);
-    /* padding: 10px; */
+    padding: 10px;
 }
 
 .box1 {
@@ -47,15 +47,21 @@
 
 .container {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 10px solid goldenrod;
+    height: 100vh;
 }
 
-.box1 {
-    flex-basis: 400px;
-    flex-grow: 2;
-    flex-shrink: 5;
-    flex: 5 5 40;
+.box {
+    flex-basis: 250px;
+    flex-grow: 1;
 }
 
-.box2 {
-    flex: 1 1 200px;
+.box4 {
+    flex-basis: 100px;
+}
+
+.box3 {
+    flex-grow: 5;
 }
