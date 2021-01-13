@@ -1,0 +1,23 @@
+{
+  "name": "html-tests",
+  "version": "1.0.0",
+  "description": "HTML, CSS, JS tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LevDoesCode/html-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LevDoesCode/html-tests/issues"
+  },
+  "homepage": "https://github.com/LevDoesCode/html-tests#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1"
+  }
+}
